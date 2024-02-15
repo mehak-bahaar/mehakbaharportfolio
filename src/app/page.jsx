@@ -1,5 +1,9 @@
+import Hero from "@/components/Hero";
+
 const Homepage = () => {
-  return <div>Hello World</div>;
+  return <div className="h-full w-full ">
+    <Hero/>
+  </div>;
 };
 
 export default Homepage;
